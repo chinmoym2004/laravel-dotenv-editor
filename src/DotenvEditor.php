@@ -508,7 +508,7 @@ class DotenvEditor
      */
     public function isStartOrEndWith($value, $string = '')
     {
-        return starts_with($value, $string) || ends_with($value, $string);
+        return str_starts_with($value, $string) || str_ends_with($value, $string);
     }
 
     /**
